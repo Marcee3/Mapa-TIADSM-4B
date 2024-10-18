@@ -6,21 +6,15 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap'
 }).addTo(map);
 
-// Crear un ícono personalizado
-var icon1 = L.icon({
-    iconUrl: 'https://img.icons8.com/?size=100&id=107436&format=png&color=000000', // URL de la imagen del ícono
-    iconSize: [25, 41], // Tamaño del ícono
-    iconAnchor: [12, 41], // Punto del ícono que corresponde a la ubicación del marcador
-    popupAnchor: [1, -34] // Punto del pop-up que corresponde al ícono
-});
+
 var icon2 = L.icon({
-    iconUrl: 'https://img.icons8.com/?size=100&id=p8u5DVmPEnOL&format=png&color=000000', // URL de la imagen del ícono
-    iconSize: [25, 41], // Tamaño del ícono
-    iconAnchor: [12, 41], // Punto del ícono que corresponde a la ubicación del marcador
-    popupAnchor: [1, -34] // Punto del pop-up que corresponde al ícono
+    iconUrl: 'https://img.icons8.com/?size=100&id=p8u5DVmPEnOL&format=png&color=000000', 
+    iconSize: [25, 41], 
+    iconAnchor: [12, 41], 
+    popupAnchor: [1, -34] 
 });
 var icon3 = L.icon({
-    iconUrl: 'https://img.icons8.com/?size=100&id=svF8ZHwtgbpX&format=png&color=000000', // URL de la imagen del ícono
+    iconUrl: 'https://img.icons8.com/?size=100&id=svF8ZHwtgbpX&format=png&color=000000', 
     iconSize: [25, 41], // Tamaño del ícono
     iconAnchor: [12, 41], // Punto del ícono que corresponde a la ubicación del marcador
     popupAnchor: [1, -34] // Punto del pop-up que corresponde al ícono
