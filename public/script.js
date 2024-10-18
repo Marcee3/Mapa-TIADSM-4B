@@ -6,7 +6,12 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap'
 }).addTo(map);
 
-
+var icon1 = L.icon({
+    iconUrl: 'https://img.icons8.com/?size=100&id=107436&format=png&color=000000', 
+    iconSize: [25, 41], 
+    iconAnchor: [12, 41], 
+    popupAnchor: [1, -34] 
+});
 var icon2 = L.icon({
     iconUrl: 'https://img.icons8.com/?size=100&id=p8u5DVmPEnOL&format=png&color=000000', 
     iconSize: [25, 41], 
